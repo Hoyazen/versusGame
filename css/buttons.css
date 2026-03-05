@@ -1,0 +1,22 @@
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.buttons-content button {
+    background-color: #141414;
+    color: #CFCFCF;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: 0.3s all ease-in-out;
+    border: 3px solid #141414;
+}
+
+.buttons-content button:hover {
+    background-color: #CFCFCF;
+    color: #141414;
+}
